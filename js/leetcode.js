@@ -20,7 +20,19 @@ var twoSum = function(nums, target) {
 };
 
 
-//
+// 9. Palindrome Number
+
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+    if(x < 0) {
+        return false
+    } else {
+        return x.toString().split('').reverse().join('') === x.toString();
+    }
+};
 
 
 

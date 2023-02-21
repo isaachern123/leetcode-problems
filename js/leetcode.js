@@ -115,3 +115,18 @@ var isValid = function(s) {
     }
     return s === ""
 };
+
+
+// 58. Length of Last Word
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLastWord = function(s) {
+    let n = s.split(" ");
+    let lastWord = n[n.length - 1];
+    return lastWord.length
+};
+
+console.log(lengthOfLastWord("Hello world"))

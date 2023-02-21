@@ -139,5 +139,3 @@ var mySqrt = function(x) {
     let newNumber = Math.sqrt(x);
     return Math.floor(newNumber);
 };
-
-console.log(mySqrt(8));

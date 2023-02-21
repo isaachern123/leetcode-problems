@@ -124,7 +124,7 @@ var isValid = function(s) {
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-    let n = s.split(" ");
+    let n = s.trim().split(" ");
     let lastWord = n[n.length - 1];
     return lastWord.length
 };

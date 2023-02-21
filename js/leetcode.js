@@ -129,4 +129,3 @@ var lengthOfLastWord = function(s) {
     return lastWord.length
 };
 
-console.log(lengthOfLastWord("Hello world"))
